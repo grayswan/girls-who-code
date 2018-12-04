@@ -1,11 +1,12 @@
 body {
   position: absolute;
+  height: auto;
   margin: 0;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
-  overflow-y: auto;
+  overflow-y: visible;
   border: 15px solid #EC2F5E;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 48px;
