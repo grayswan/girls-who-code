@@ -1,10 +1,11 @@
 body {
-  margin: 0;
   position: absolute;
+  margin: 0;
   top: 0;
   bottom: 0;
   right: 0;
   left: 0;
+  overflow-y: auto;
   border: 15px solid #EC2F5E;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 48px;
@@ -13,9 +14,10 @@ body {
 }
 
 button {
+  background-color: #ffffff;
   border: 2px solid #EC2F5E;
-  padding: 50px 40px;
-  border-radius: 100px;
+  padding: 25px 20px;
+  border-radius: 100%;
   font-size: 35px;
   cursor: pointer;
 }
